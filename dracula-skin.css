@@ -1,0 +1,662 @@
+/* 
+
+This is an Obsidian Snippet to apply a new coat of paint to
+@kepano's Minimal theme, but this could technically apply
+as a skin to any theme that uses the same variables.
+
+The color scheme is an unofficial take on Dracula Pro. 
+https://draculatheme.com/pro
+
+----------------------------------------------------------------
+
+TOC
+
+Theme
+
+  @jackal's Dracula Pro Color Scheme
+  Colors Applied to Variables
+    Original Minimal Theme Variables Modified
+    @jackal's Extra Color Variables for Specific Elements
+
+Elements
+
+  Calendar Plugin
+  Headers
+  Tags
+  Cursor
+        Vim Cursor
+  URLs
+  External Links
+  Internal Links
+  Editor Mode Lists
+  Editor Mode Quotes
+  Checkboxes
+  Toggle Switches
+  Footnotes
+  Folding Arrows
+  Popovers
+  Graph View
+        Circle When Not Hover
+        Circle When Hover
+        Line When Hover
+        Circle Stroke
+        Circle When Link Unresolved
+        Tags
+        Arrows
+  Bold
+  Italics
+  Strikethrough
+  Highlight
+  Command Palette Hotkeys
+  Vault Launch Progress Bar
+  Active Panes
+        Highlight Active Pane Title
+        Highlight Active Pane in Finder
+        Highlight Active Section
+  Block-IDs
+  Math
+  Code
+  Code Syntax Highlights
+
+  ----------------------------------------------------------------
+
+  */
+
+/*----------------------------------------------------------------
+
+  @jackal's Dracula Pro Color Scheme
+
+  */
+
+:root {
+    --primary-background: #1B1A23;
+    --secondary-background: #22212C;
+    --tertiary-background: #353243;
+    --quaternary-background: #423F50;
+    --white: #F8F8F3;
+    --gray-1: #586e75;
+    --gray-2: #D5D4DE;
+    --red: #FF5555;
+    --orange: #FE9580;
+    --green: #8AFF7F;
+    --cyan: #81FFEA;
+    --cyan-transparent: rgba(129, 255, 234, 0.3);
+    --purple: #9580FF;
+    --purple-transparent: rgba(149, 128, 255, 0.5);
+    --pink: #FE7FBF;
+    --blue: #00588E;
+    --yellow: #FEFF7F;
+  }
+
+/*----------------------------------------------------------------
+
+  Colors Applied to Variables
+
+  */
+
+  /* Original Minimal Theme Variables Modified */
+
+
+  .theme-light,
+  .theme-dark {
+    --background-primary: var(--primary-background);
+    --background-primary-alt: var(--secondary-background);
+    --background-secondary: var(--secondary-background);
+    --background-secondary-alt: var(--primary-background);
+    --background-tertiary: var(--tertiary-background);
+    --background-modifier-border: var(--tertiary-background);
+    --background-modifier-border-hover: var(--quaternary-background);
+    --background-modifier-border-focus: var(--quaternary-background);
+    --background-modifier-box-shadow:rgba(0, 0, 0, 0.3);
+    --text-normal: var(--white);
+    --text-muted: var(--gray-2);
+    --text-faint: var(--purple-transparent);
+    --background-transparent:hsla(var(--primary-background),0);
+    --background-translucent:hsla(var(--primary-background),0.85);
+    --background-match-highlight:hsla(var(--accent-h), 40%, 62%, 0.2);
+    --background-modifier-accent:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) - 10%));
+    --text-accent: var(--pink);
+    --text-accent-hover: var(--aqua);
+    --text-on-accent: var(--purple);
+    --icon-hex:FFF;
+    --interactive-accent: var(--tertiary-background);
+    --interactive-accent-hover: var(--quaternary-background);
+    --quote-opening-modifier:var(--orange);
+    --interactive-accent-rgb: 123, 108, 217;
+    --text-selection: var(--cyan-transparent);
+    --text-highlight-bg: var(--blue);
+    --text-highlight-bg-active:rgba(255, 255, 255, 0.1);
+    --background-modifier-cover:hsla(var(--base-h),var(--base-s),calc(var(--base-d) - 12%),0.8);
+    --background-accent: var(--white);
+    --background-modifier-form-field: rgba(0, 0, 0, 0.2);
+    --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.5);
+    --background-modifier-success: var(--green);
+    --background-modifier-error: var(--red);
+    --background-modifier-error-rgb: 61, 0, 0;
+    --background-modifier-error-hover: var(--red);
+    --background-modifier-cover: rgba(0, 0, 0, 0.6);
+    --text-error: var(--red);
+    --text-error-hover: var(--red);
+    --interactive-normal: var(--tertiary-background);
+    --interactive-hover: var(--quaternary-background);
+    --scrollbar-active-thumb-bg: var(--quaternary-background);
+    --scrollbar-bg: var(--primary-background);
+    --scrollbar-thumb-bg: var(--tertiary-background);
+    --border-color: var(--quaternary-background);
+
+
+
+    /* @jackal's Extra Color Variables for Specific Elements */
+
+    --cursor: var(--cyan);
+    --vim-cursor: var(--cyan);
+    --headers: var(--green);
+    --h1: var(--green);
+    --h2: var(--green);
+    --h3: var(--green);
+    --h4: var(--text-normal);
+    --h5: var(--text-normal);
+    --h6: var(--text-muted);
+    --bold: var(--purple);
+    --italics: var(--pink);
+    --strikethrough: var(--gray-1);
+    --highlight: var(--yellow);
+    --internal-link: var(--cyan);
+    --internal-link-unresolved: var(--blue);
+    --external-link: var(--orange);
+    --external-link-url: var(--gray-1);
+    --tag: var(--pink);
+    --footnote: var(--blue);
+    --block-id: var(--cyan);
+    --checkbox: var(--purple);
+    --list: var(--purple);
+    --math: var(--red);
+    --inline-code: var(--red);
+    --code-block: var(--red);
+    --pre-code: var(--gray-2);
+    --toggle-on: var(--green);
+    --toggle-off: var(--secondary-background);
+    --icon: var(--purple);
+    --icon-hover: var(--white);
+    --frontmatter: var(--red);
+    --active-file: var(--green);
+  }
+
+/*----------------------------------------------------------------
+
+  Elements
+
+  */
+
+  /* Calendar Plugin */
+
+#calendar-container {
+    --color-text-title:var(--headers);
+    --color-text-day-active:var(--active-file);
+  }
+
+#calendar-container .today {
+    color:var(--bold);
+  }
+
+#calendar-container .today .dot {
+    fill:var(--bold);
+  }
+
+#calendar-container .active,
+#calendar-container .active.today,
+#calendar-container .week-num:hover,
+#calendar-container td:not(:empty):hover {
+    color:var(--color-text-day-active);
+}
+
+  /* Headers */
+
+.cm-formatting-header {
+    color:var(--headers) !important;
+  }
+.empty-state-title,
+.markdown-preview-view h1,
+.HyperMD-header-1,
+.cm-header-1 {
+    color:var(--h1);
+  }
+.markdown-preview-view h2,
+.HyperMD-header-2,
+.cm-header-2 {
+    color:var(--h2);
+  }
+.markdown-preview-view h3,
+.HyperMD-header-3,
+.cm-header-3 {
+    color:var(--h3);
+  }
+.markdown-preview-view h4,
+.HyperMD-header-4,
+.cm-header-4 {
+    color:var(--h4);
+  }
+.markdown-preview-view h5,
+.HyperMD-header-5,
+.cm-header-5 {
+    color:var(--h5);
+  }
+.markdown-preview-view h6,
+.HyperMD-header-6,
+.cm-header-6 {
+    color:var(--h6);
+  }
+
+  /* Tags */
+
+.frontmatter-container .tag,
+.tag {
+    background-color: var(--tertiary-background);
+    color:var(--tag);
+  }
+.tag:hover {
+    color:var(--icon-hover);
+  }
+.cm-s-obsidian span.cm-hashtag {
+    background-color: var(--tertiary-background);
+    color:var(--tag);
+  }
+
+  /* Cursor */
+
+.fancy-cursor .CodeMirror-cursor {
+    border-right:2px solid var(--cursor);
+  }
+
+.cm-fat-cursor .CodeMirror-cursor, .cm-animate-fat-cursor {  /* Vim Cursor */
+  background: var(--vim-cursor);
+  border-color: var(--vim-cursor);
+  opacity: 60%;
+  }
+
+  /* URLs */
+
+.cm-s-obsidian span.cm-url {
+    color:var(--external-link-url);
+  }
+
+  /* External Links */
+
+.cm-s-obsidian span.cm-link {
+    color:var(--external-link);
+  }
+
+a,
+.cm-link,
+.cm-formatting-link,
+.cm-url {
+  color: var(--external-link);
+  }
+
+  /* Internal Links */
+
+.cm-s-obsidian span.cm-hmd-internal-link {
+    color:var(--internal-link);
+  }
+.internal-link {
+    color: var(--internal-link);
+  }
+
+  /* Editor Mode Lists */
+
+.cm-formatting-list {
+    color:var(--list) !important;
+  }
+
+  /* Editor Mode Quotes */
+
+.cm-formatting-quote {
+    color:var(--quote-opening-modifier) !important;
+  }
+
+  /* Checkboxes */
+
+.is-flashing input[type=checkbox]:checked,
+input[type=checkbox]:checked {
+  background-color:var(--checkbox) !important;
+  border: var(--checkbox);
+}
+
+  /* Toggle Switches */
+
+.checkbox-container {
+    background-color:var(--toggle-off);
+  }
+.checkbox-container:after {
+    background: var(--tertiary-background);
+  }
+.checkbox-container.is-enabled {
+    background-color: var(--toggle-on);
+  }
+
+  /* Footnotes */
+
+.footnote-backref {
+    color: var(--footnote); /* only applies to preview */
+  }
+
+.cm-s-obsidian pre.HyperMD-footnote span.cm-hmd-footnote,
+.cm-s-obsidian span.cm-footref, .footnote-link {
+  color: var(--footnote);
+  }
+
+  /* Folding Arrows */
+
+ul > li:not(.task-list-item)::before {
+    color:var(--list);
+  }
+
+ol > li::before {
+    color:var(--list);
+  }
+
+  /* Popovers */
+
+.theme-dark.minimal-dark-black .popover {
+    background: var(--background-secondary);
+  }
+
+  /* Graph View */
+
+.graph-view.color-fill {  /* Circle When Not Hover */
+    color:var(--list);
+  }
+.graph-view.color-fill-highlight {  /* Circle When Hover */
+    color:var(--active-file);
+  }
+.graph-view.color-line-highlight {  /* Line When Hover */
+    color:var(--internal-link);
+    border:0;
+  }
+.graph-view.color-circle {  /* Circle Stroke */
+    color:var(--active-file);
+  }
+.graph-view.color-fill-unresolved {  /* Circle When Link Unresolved */
+    color:var(--internal-link-unresolved);
+  }
+.graph-view.color-fill-tag {  /* Tags */
+    color: var(--tag);
+  }
+.graph-view.color-arrow {  /* Arrows */
+    color: var(--internal-link);
+  }
+  
+  /* Bold */
+
+strong, .cm-strong {
+  color: var(--bold);
+  }
+
+  /* Italics */
+
+em, .cm-em {
+  color: var(--italics);
+  }
+
+  /* Strikethrough */
+
+s, del, .cm-strikethrough {
+  color: var(--strikethrough);
+  }
+
+  /* Highlight */
+
+.markdown-preview-view mark {
+  background-color: var(--highlight);
+  color: var(--background-primary);
+  opacity: 80%;
+  }
+.cm-s-obsidian span.cm-formatting-highlight, .cm-s-obsidian span.cm-highlight {
+  background-color: var(--highlight);
+  color: var(--background-primary);
+  opacity: 80%;
+  }
+
+  /* Command Palette Hotkeys */
+
+.suggestion-item.is-selected .suggestion-hotkey{
+  color: var(--list)
+  }
+
+  /* Vault Launch Progress Bar */
+
+.progress-bar-subline {
+  background-color: var(--tertiary-background);
+  }
+.progress-bar-line {
+  background-color: var(--green);
+  }
+
+  /* Active Panes */
+
+.workspace-leaf.mod-active .view-header-title {  /* Highlight Active Pane Title */
+  color: var(--active-file);
+  }
+
+.nav-file.is-active > .nav-file-title,
+.nav-file.is-active > .nav-folder-title,
+.nav-file.is-active > .nav-folder-collapse-indicator,
+.nav-folder.is-active > .nav-file-title,
+.nav-folder.is-active > .nav-folder-title,
+.nav-folder.is-active > .nav-folder-collapse-indicator {  /* Highlight Active Pane in Finder */
+  color: var(--active-file);
+  }
+
+.side-dock-collapsible-section-header:not(.is-collapsed) {  /* Highlight Active Section */
+  color: var(--active-file);
+  }
+
+  /* Block-IDs */
+
+.cm-s-obsidian span.cm-blockid {
+  color: var(--block-id);
+  }
+
+  /* Math */
+  
+.cm-s-obsidian span.cm-math, .cm-s-obsidian span.hmd-fold-math-placeholder {
+    color: var(--math);
+  }
+.cm-s-obsidian span.cm-formatting-math {
+    color: var(--math);
+  }
+
+  /* Code */
+
+.markdown-preview-view code {
+    color: var(--inline-code);
+  }
+  code,
+.cm-s-obsidian span.cm-inline-code {
+    color: var(--inline-code);
+  }
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) {
+    color: var(--inline-code);
+  }
+.cm-s-obsidian span.cm-inline-code.cm-hmd-indented-code {
+    color: var(--inline-code);
+  }
+
+  /* Code Syntax Highlights */
+
+.language-css {
+  color: var(--purple);
+  }
+
+.token {
+  color: var(--pink);
+  }
+
+.language-css .token {
+  color: var(--pink);
+  }
+
+.token.script {
+  color: var(--text-normal);
+  }
+
+.token.bold {
+  font-weight: bold;
+  }
+
+.token.italic {
+  font-style: italic;
+  }
+
+.token.atrule, .token.attr-name, .token.attr-value {
+  color: var(--green);
+  }
+
+.language-css .token.atrule {
+  color: var(--purple);
+  }
+
+.language-html .token.attr-value, .language-markup .token.attr-value {
+  color: var(--yellow);
+  }
+
+.token.boolean {
+  color: var(--purple);
+  }
+
+.token.builtin, .token.class-name {
+  color: var(--cyan);
+  }
+
+.token.comment {
+  color: var(--gray-1);
+  }
+
+.token.constant {
+  color: var(--purple);
+  }
+
+.language-javascript .token.constant {
+  color: var(--orange);
+  font-style: italic;
+  }
+
+.token.entity {
+  color: var(--pink);
+  }
+
+.language-css .token.entity {
+  color: var(--green);
+  }
+
+.language-html .token.entity.named-entity {
+  color: var(--purple);
+  }
+
+.language-html .token.entity:not(.named-entity) {
+  color: var(--pink);
+  }
+
+.language-markup .token.entity.named-entity {
+  color: var(--purple);
+  }
+
+.language-markup .token.entity:not(.named-entity) {
+  color: var(--pink);
+  }
+
+.token.function {
+  color: var(--green);
+  }
+
+.language-css .token.function {
+  color: var(--cyan);
+  }
+
+.token.important, .token.keyword {
+  color: var(--pink);
+  }
+
+.token.prolog {
+  color: var(--text-normal);
+  }
+
+.token.property {
+  color: var(--orange);
+  }
+
+.language-css .token.property {
+  color: var(--cyan);
+  }
+
+.token.punctuation {
+  color: var(--pink);
+  }
+
+.language-css .token.punctuation {
+  color: var(--orange);
+  }
+
+.language-html .token.punctuation, .language-markup .token.punctuation {
+  color: var(--text-normal);
+  }
+
+.token.selector {
+  color: var(--pink);
+  }
+
+.language-css .token.selector {
+  color: var(--green);
+  }
+
+.token.regex {
+  color: var(--red);
+  }
+
+.language-css .token.rule:not(.atrule) {
+  color: var(--text-normal);
+  }
+
+.token.string {
+  color: var(--yellow);
+  }
+
+.token.tag {
+  color: var(--pink);
+  }
+
+.token.url {
+  color: var(--cyan);
+  }
+
+.language-css .token.url {
+  color: var(--orange);
+  }
+
+.token.variable {
+  color: var(--gray-1);
+  }
+
+.token.number {
+  color: var(--purple);
+  }
+
+.token.operator {
+  color: var(--cyan);
+  }
+
+.token.char {
+  color: var(--pink);
+  }
+
+.token.symbol {
+  color: var(--yellow);
+  }
+
+.token.deleted {
+  color: var(--red);
+  }
+
+.token.namespace {
+  color: var(--red);
+  }
