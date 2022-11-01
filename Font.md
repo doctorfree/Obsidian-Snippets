@@ -56,7 +56,6 @@ div.test em {
 cssclass: test
 `---`
 ```
-```
 
 ```css
 /* Set color of bold text */
@@ -71,6 +70,7 @@ cssclass: test
 ```
 
 # Garble Text
+```css
 /*
   garble-text.css -- 2021-08-22 Matthias C. Hormann (aka Moonbase59)
   
@@ -131,3 +131,4 @@ cssclass: test
   -webkit-filter: unset !important;
   transition: all 0.3s;
 }
+```

@@ -1,4 +1,5 @@
 # Headers
+
 ```css
 /* List styling (H1 numbering ONLY) for note content */
 
@@ -19,7 +20,7 @@ h6 {
 }
 ```
 
-```
+```css
 /* Selection the first H1 header of the Note */
 pre:nth-of-type(2).HyperMD-header.HyperMD-header-1 {
     color: red;
@@ -30,9 +31,6 @@ pre:nth-of-type(2).HyperMD-header.HyperMD-header-1 {
 /* Change just 1 particular header */
 /* Note: gap between 1st and 2nd line must be put in ! */
 <div style="color:red"></div>
-```
-```
-
 ```
 
 OR put it in an html element with a class that changes the color
@@ -363,6 +361,7 @@ font-size: 0.6em;
 ```
 
 If you need to have H1 headings capitalized in the note text, use:
+
 ```css
 /* Automatically convert H1 headings to capitals in text */
 .cm-header-1, .markdown-preview-view h1 {

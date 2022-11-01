@@ -1,4 +1,5 @@
 # Outliner pane
+
 ```css
 /* connecting lines outliner */
 .outline {
@@ -105,4 +106,4 @@ ol li:before {
 ```
 
 TO AUTOMATICALLY CONVERT H1 HEADINGS TO CAPITAL LETTERS,
-GO TO THE `HEADERS.md` FILE AND SCROLL DOWN FAIRLY FAR.
+GO TO THE [Headers.md](Headers.md) FILE AND SCROLL DOWN FAIRLY FAR.

@@ -1,4 +1,5 @@
 # Sentences
+
 ```css
 /* Reduce length of sentences in full screen */
 .markdown-source-view, .markdown-preview-view {
@@ -7,10 +8,15 @@ margin: auto;
 }
 ```
 
-# Combine Nested tag colors and Highlight colors
-use tag to highlight the whole line
-Screenshot: https://forum.obsidian.md/t/how-to-achieve-css-code-snippets/8474/76?u=klaas
+## Combine nested tag colors and highlight colors
 
+Use tag to highlight the whole line
+
+Screenshot:
+
+![Use tag to highlight](assets/tag_highlight.png)
+
+```css
 /*
 Combine Nested tag colors and Highlight colors,
 use the same colors for both nested tag and highlight.
@@ -48,10 +54,8 @@ How to use code syntax:：
 .yellow  rgb(255,255,0)   
 .blue    rgb(0,0,255)    
 
-
 /* WYSIWYG Editor modef for highlight colors */
 
-```css
 /* Toggle highlight,strong,italic symbols 
 div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting-strong,
 div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting-em,
@@ -247,7 +251,9 @@ a[href^="#video"] + mark {
 ```
 
 
-# Use nested tag to manage 16 highlight colors,bold,italic
+## Use nested tag to manage 16 highlight colors,bold,italic
+
+```css
 /* and toggle tag , works in edit mode and preview mode. 
 
 /*
