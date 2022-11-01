@@ -12,7 +12,7 @@ Included snippets:
 - [Dracula Skin](Dracula-skin.md) : An Obsidian skin similar to a Dracula theme
 - [Graph View Skin](Graph-view-skin.md) : An Obsidian skin for the graph view
 - [Animation](Animation.md)
-- [Block quote inline](Block quote inline.md)
+- [Block quote inline]("Block quote inline.md")
 - [Block quote](Block quote.md)
 - [Buttons - stylized](Buttons - stylized.md)
 - [Check box](Check box.md)
