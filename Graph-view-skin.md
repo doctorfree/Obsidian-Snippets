@@ -20,58 +20,51 @@ Graph View
 
 */
 
-:root {
-    --white: #F8F8F3;
-    --gray-1: #586e75;
-    --gray-2: #D5D4DE;
-    --red: #FF5555;
-    --orange: #FE9580;
-    --green: #8AFF7F;
-    --cyan: #81FFEA;
-    --cyan-transparent: rgba(129, 255, 234, 0.3);
-    --purple: #9580FF;
-    --purple-transparent: rgba(149, 128, 255, 0.5);
-    --pink: #FE7FBF;
-    --blue: #00588E;
-    --yellow: #FEFF7F;
-}
-
+/***************************************/
+/*             Graph View              */
+/***************************************/
 /* Circle Stroke */
-.graph-view.color-circle {
-  color:var(--green) !important;
-}
+/* Line When Hover */
+.graph-view.color-circle,
 .graph-view.color-line-highlight {
-  color:var(--cyan) !important;
-  border:0 !important;
+  color: #81FFEA;
+  border: 0;
 }
 /* Circle When Hover */
 .graph-view.color-fill-highlight {
-  color:var(--yellow) !important;
+  color: #8AFF7F;
 }
 .graph-view.color-text {
-  color:var(--cyan) !important;
+  color: #FEFF7F;
 }
 .graph-view.color-line {
-  color: #6272a4 !important;
+  color: #6272a4;
 }
 /* Circle When Not Hover */
 .graph-view.color-fill {
-    color:var(--white) !important;
+  color: #81FFEA;
 }
 /* Arrows */
-.graph-view.color-arrow {
-  color: var(--cyan) !important;
+.theme-light .graph-view.color-arrow,
+.theme-dark .graph-view.color-arrow {
+  color: #50fa7b;
 }
 /* Tags */
-.graph-view.color-fill-tag {
-  color: var(--green) !important;
+.theme-light .graph-view.color-fill-tag,
+.theme-dark .graph-view.color-fill-tag {
+  color: #ffb86c;
 }
 /* Attachments */
-.graph-view.color-fill-attachment {
-  color: var(--gray-1) !important;
+.theme-light .graph-view.color-fill-attachment,
+.theme-dark .graph-view.color-fill-attachment {
+  color: #ff5555;
 }
 /* Circle When Link Unresolved */
-.graph-view.color-fill-unresolved {
-  color:var(--blue) !important;
+.theme-light .graph-view.color-fill-unresolved,
+.theme-dark .graph-view.color-fill-unresolved {
+  color: #6272a4;
+}
+.workspace-leaf-content[data-type=graph] .view-content {
+  background-color: hsl(207deg, 95%, 5%);
 }
 ```
