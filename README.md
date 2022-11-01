@@ -23,6 +23,7 @@ Included snippets:
 - [Embeds](Embeds.md)
 - [Export to PDF](Export%20to%20PDF.md)
 - [File explorer - Obsidian](File%20explorer%20-%20Obsidian.md)
+- [Folding arrows](Folding%20arrows/Folding%20arrows.md)
 - [Font](Font.md)
 - [Footnotes](Footnotes.md)
 - [Graph nodes](Graph%20nodes.md)
