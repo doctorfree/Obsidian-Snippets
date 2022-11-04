@@ -66,6 +66,10 @@ This will result in a local folder, `Obsidian-Snippets`, containing all of the m
 
 ## Included snippets
 
+The default theme full CSS:
+
+- [Default theme](Default.md)
+
 Written by [Doctorfree](https://github.com/doctorfree):
 
 - [Graph View Skin](Graph-view-skin.md)
@@ -74,7 +78,7 @@ Included from [kmaasrud/awesome-obsidian](https://github.com/Dmytro-Shulha/obsid
 
 |    |    |    |    |
 |----|----|----|----|
-| [Default](obsidian-css-snippets/Default.md) | [Dracula Skin](obsidian-css-snippets/Dracula-skin.md) | [Text Box](obsidian-css-snippets/Text-Box.md) | [Animation](obsidian-css-snippets/Animation.md) |
+| [Center Tables](obsidian-css-snippets/Center-Tables.md) | [Dracula Skin](obsidian-css-snippets/Dracula-skin.md) | [Text Box](obsidian-css-snippets/Text-Box.md) | [Animation](obsidian-css-snippets/Animation.md) |
 | [Block quote inline](obsidian-css-snippets/Block%20quote%20inline.md) | [Block quote](obsidian-css-snippets/Block%20quote.md) | [Buttons - stylized](obsidian-css-snippets/Buttons%20-%20stylized.md) | [Check box](obsidian-css-snippets/Check%20box.md) |
 | [Clutter remove](obsidian-css-snippets/Clutter%20remove.md) | [Command palette](obsidian-css-snippets/Command%20palette.md) | [Country flag hashtag](obsidian-css-snippets/Country%20flag%20hashtag.md) | [Edge on left](obsidian-css-snippets/Edge%20on%20left.md) |
 | [Embeds](obsidian-css-snippets/Embeds.md) | [Export to PDF](obsidian-css-snippets/Export%20to%20PDF.md) | [File explorer - Obsidian](obsidian-css-snippets/File%20explorer%20-%20Obsidian.md) | [Folding arrows](obsidian-css-snippets/Folding%20arrows/Folding%20arrows.md) |
@@ -92,11 +96,19 @@ Included from [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-ob
 
 |    |    |    |    |
 |----|----|----|----|
-| [autofading ui](awesome-obsidian/autofading-ui.md) | [better bullet points in edit mode](awesome-obsidian/better-bullet-points-in-edit-mode.md) | [bigger link popup preview](awesome-obsidian/bigger-link-popup-preview.md) | [bullet point relationship lines](awesome-obsidian/bullet-point-relationship-lines.md) |
-| [collapsing sidebar](awesome-obsidian/collapsing-sidebar.md) | [custom icons differing files and folders](awesome-obsidian/custom-icons-differing-files-and-folders.md) | [custom icons for frontmatter tags](awesome-obsidian/custom-icons-for-frontmatter-tags.md) | [custom icons for specific folders](awesome-obsidian/custom-icons-for-specific-folders.md) |
-| [enlarge image on hover](awesome-obsidian/enlarge-image-on-hover.md) | [hyphenation and justification](awesome-obsidian/hyphenation-and-justification.md) | [image cards](awesome-obsidian/image-cards.md) | [media grid](awesome-obsidian/media-grid.md) |
-| [nicer checkboxes](awesome-obsidian/nicer-checkboxes.md) | [outliner for the outline and file explorer](awesome-obsidian/outliner-for-the-outline-and-file-explorer.md) | [smaller scrollbar](awesome-obsidian/smaller-scrollbar.md) | [stylish blockquotes](awesome-obsidian/stylish-blockquotes.md) |
-| [subtler folding gutter arrows](awesome-obsidian/subtler-folding-gutter-arrows.md) | [tag pills](awesome-obsidian/tag-pills.md) | | |
+| [Autofading ui](awesome-obsidian/autofading-ui.md) | [Better bullet points in edit mode](awesome-obsidian/better-bullet-points-in-edit-mode.md) | [Bigger link popup preview](awesome-obsidian/bigger-link-popup-preview.md) | [Bullet point relationship lines](awesome-obsidian/bullet-point-relationship-lines.md) |
+| [Collapsing sidebar](awesome-obsidian/collapsing-sidebar.md) | [Custom icons differing files and folders](awesome-obsidian/custom-icons-differing-files-and-folders.md) | [Custom icons for frontmatter tags](awesome-obsidian/custom-icons-for-frontmatter-tags.md) | [Custom icons for specific folders](awesome-obsidian/custom-icons-for-specific-folders.md) |
+| [Enlarge image on hover](awesome-obsidian/enlarge-image-on-hover.md) | [Hyphenation and justification](awesome-obsidian/hyphenation-and-justification.md) | [Image cards](awesome-obsidian/image-cards.md) | [Media grid](awesome-obsidian/media-grid.md) |
+| [Nicer checkboxes](awesome-obsidian/nicer-checkboxes.md) | [Outliner for the outline and file explorer](awesome-obsidian/outliner-for-the-outline-and-file-explorer.md) | [Smaller scrollbar](awesome-obsidian/smaller-scrollbar.md) | [Stylish blockquotes](awesome-obsidian/stylish-blockquotes.md) |
+| [Subtler folding gutter arrows](awesome-obsidian/subtler-folding-gutter-arrows.md) | [Tag pills](awesome-obsidian/tag-pills.md) | | |
+
+Included from [Scott Killen](https://github.com/ScottKillen/obsidian-snippets):
+
+|    |    |    |    |
+|----|----|----|----|
+| [Calendar emoji](obsidian-snippets/calendar-emoji.md) | [Calendar starred](obsidian-snippets/calendar-starred.md) | [Calendar weekends](obsidian-snippets/calendar-weekends.md) | [Custom checkboxes](obsidian-snippets/custom-checkboxes.md) |
+| [Jesus words](obsidian-snippets/jesuswords.md) | [Labeled nav](obsidian-snippets/labeled-nav.md) | [Minimal tweaks](obsidian-snippets/minimal-tweaks.md) | [Print](obsidian-snippets/print.md) |
+| [Tables](obsidian-snippets/tables.md) | [Tabular numbers](obsidian-snippets/tabular-numbers.md) | [Typography](obsidian-snippets/typography.md) | |
 
 ## Support
 
