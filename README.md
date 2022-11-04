@@ -66,21 +66,37 @@ This will result in a local folder, `Obsidian-Snippets`, containing all of the m
 
 ## Included snippets
 
+Written by [Doctorfree](https://github.com/doctorfree):
+
+- [Graph View Skin](Graph-view-skin.md)
+
+Included from [kmaasrud/awesome-obsidian](https://github.com/Dmytro-Shulha/obsidian-css-snippets) and elsewhere:
+
 |    |    |    |    |
 |----|----|----|----|
-| [Default](Default.md) | [Dracula Skin](Dracula-skin.md) | [Graph View Skin](Graph-view-skin.md) | [Animation](Animation.md) |
-| [Block quote inline](Block%20quote%20inline.md) | [Block quote](Block%20quote.md) | [Buttons - stylized](Buttons%20-%20stylized.md) | [Check box](Check%20box.md) |
-| [Clutter remove](Clutter%20remove.md) | [Command palette](Command%20palette.md) | [Country flag hashtag](Country%20flag%20hashtag.md) | [Edge on left](Edge%20on%20left.md) |
-| [Embeds](Embeds.md) | [Export to PDF](Export%20to%20PDF.md) | [File explorer - Obsidian](File%20explorer%20-%20Obsidian.md) | [Folding arrows](Folding%20arrows/Folding%20arrows.md) |
-| [Font](Font.md) | [Footnotes](Footnotes.md) | [Graph nodes](Graph%20nodes.md) | [Gutter line numbers](Gutter%20line%20numbers.md) |
-| [Headers](Headers.md) | [HTML](HTML.md) | [Hyphenation-Justification](Hyphenation-Justification.md) | [Images](Images.md) |
-| [Lines - horizontal](Lines%20-%20horizontal.md) | [Links](Links.md) | [Lists - (un)ordered](Lists%20-%20(un)ordered.md) | [Markers](Markers.md) |
-| [Mermaid](Mermaid.md) | [Note title in pane](Note%20title%20in%20pane.md) | [Outliner pane](Outliner%20pane.md) | [Panes](Panes.md) |
-| [Popover-Popup](Popover-Popup.md) | [Progress bar vault launch](Progress%20bar%20vault%20launch.md) | [Resizable Mermaid](Resizable%20Mermaid.md) | [Ribbons](Ribbons.md) |
-| [Scroll bar](Scroll%20bar.md) | [Search](Search.md) | [Sentences](Sentences.md) | [Settings](Settings.md) |
-| [Sidebar](Sidebar.md) | [Sidenotes](Sidenotes.md) | [Special effects](Special%20effects.md) | [Status bar](Status%20bar.md) |
-| [Table](Table.md) | [Tag pills](Tag%20pills.md) | [Title bar](Title%20bar.md) | [Tooltip](Tooltip.md) |
-| [URLs](URLs.md) | [Vim Static Caret](Vim%20Static%20Caret.md) | [WYSIWYG](WYSIWYG.md) | [Yaml](Yaml.md) |
+| [Default](obsidian-css-snippets/Default.md) | [Dracula Skin](obsidian-css-snippets/Dracula-skin.md) | [Text Box](obsidian-css-snippets/Text-Box.md) | [Animation](obsidian-css-snippets/Animation.md) |
+| [Block quote inline](obsidian-css-snippets/Block%20quote%20inline.md) | [Block quote](obsidian-css-snippets/Block%20quote.md) | [Buttons - stylized](obsidian-css-snippets/Buttons%20-%20stylized.md) | [Check box](obsidian-css-snippets/Check%20box.md) |
+| [Clutter remove](obsidian-css-snippets/Clutter%20remove.md) | [Command palette](obsidian-css-snippets/Command%20palette.md) | [Country flag hashtag](obsidian-css-snippets/Country%20flag%20hashtag.md) | [Edge on left](obsidian-css-snippets/Edge%20on%20left.md) |
+| [Embeds](obsidian-css-snippets/Embeds.md) | [Export to PDF](obsidian-css-snippets/Export%20to%20PDF.md) | [File explorer - Obsidian](obsidian-css-snippets/File%20explorer%20-%20Obsidian.md) | [Folding arrows](obsidian-css-snippets/Folding%20arrows/Folding%20arrows.md) |
+| [Font](obsidian-css-snippets/Font.md) | [Footnotes](obsidian-css-snippets/Footnotes.md) | [Graph nodes](obsidian-css-snippets/Graph%20nodes.md) | [Gutter line numbers](obsidian-css-snippets/Gutter%20line%20numbers.md) |
+| [Headers](obsidian-css-snippets/Headers.md) | [HTML](obsidian-css-snippets/HTML.md) | [Hyphenation-Justification](obsidian-css-snippets/Hyphenation-Justification.md) | [Images](obsidian-css-snippets/Images.md) |
+| [Lines - horizontal](obsidian-css-snippets/Lines%20-%20horizontal.md) | [Links](obsidian-css-snippets/Links.md) | [Lists - (un)ordered](obsidian-css-snippets/Lists%20-%20(un)ordered.md) | [Markers](obsidian-css-snippets/Markers.md) |
+| [Mermaid](obsidian-css-snippets/Mermaid.md) | [Note title in pane](obsidian-css-snippets/Note%20title%20in%20pane.md) | [Outliner pane](obsidian-css-snippets/Outliner%20pane.md) | [Panes](obsidian-css-snippets/Panes.md) |
+| [Popover-Popup](obsidian-css-snippets/Popover-Popup.md) | [Progress bar vault launch](obsidian-css-snippets/Progress%20bar%20vault%20launch.md) | [Resizable Mermaid](obsidian-css-snippets/Resizable%20Mermaid.md) | [Ribbons](obsidian-css-snippets/Ribbons.md) |
+| [Scroll bar](obsidian-css-snippets/Scroll%20bar.md) | [Search](obsidian-css-snippets/Search.md) | [Sentences](obsidian-css-snippets/Sentences.md) | [Settings](obsidian-css-snippets/Settings.md) |
+| [Sidebar](obsidian-css-snippets/Sidebar.md) | [Sidenotes](obsidian-css-snippets/Sidenotes.md) | [Special effects](obsidian-css-snippets/Special%20effects.md) | [Status bar](obsidian-css-snippets/Status%20bar.md) |
+| [Table](obsidian-css-snippets/Table.md) | [Tag pills](obsidian-css-snippets/Tag%20pills.md) | [Title bar](obsidian-css-snippets/Title%20bar.md) | [Tooltip](obsidian-css-snippets/Tooltip.md) |
+| [URLs](obsidian-css-snippets/URLs.md) | [Vim Static Caret](obsidian-css-snippets/Vim%20Static%20Caret.md) | [WYSIWYG](obsidian-css-snippets/WYSIWYG.md) | [Yaml](obsidian-css-snippets/Yaml.md) |
+
+Included from [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian/tree/master/code/css-snippets):
+
+|    |    |    |    |
+|----|----|----|----|
+| [autofading ui](awesome-obsidian/autofading-ui.md) | [better bullet points in edit mode](awesome-obsidian/better-bullet-points-in-edit-mode.md) | [bigger link popup preview](awesome-obsidian/bigger-link-popup-preview.md) | [bullet point relationship lines](awesome-obsidian/bullet-point-relationship-lines.md) |
+| [collapsing sidebar](awesome-obsidian/collapsing-sidebar.md) | [custom icons differing files and folders](awesome-obsidian/custom-icons-differing-files-and-folders.md) | [custom icons for frontmatter tags](awesome-obsidian/custom-icons-for-frontmatter-tags.md) | [custom icons for specific folders](awesome-obsidian/custom-icons-for-specific-folders.md) |
+| [enlarge image on hover](awesome-obsidian/enlarge-image-on-hover.md) | [hyphenation and justification](awesome-obsidian/hyphenation-and-justification.md) | [image cards](awesome-obsidian/image-cards.md) | [media grid](awesome-obsidian/media-grid.md) |
+| [nicer checkboxes](awesome-obsidian/nicer-checkboxes.md) | [outliner for the outline and file explorer](awesome-obsidian/outliner-for-the-outline-and-file-explorer.md) | [smaller scrollbar](awesome-obsidian/smaller-scrollbar.md) | [stylish blockquotes](awesome-obsidian/stylish-blockquotes.md) |
+| [subtler folding gutter arrows](awesome-obsidian/subtler-folding-gutter-arrows.md) | [tag pills](awesome-obsidian/tag-pills.md) | | |
 
 ## Support
 

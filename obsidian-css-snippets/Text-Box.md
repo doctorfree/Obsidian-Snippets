@@ -1,3 +1,6 @@
+# Text Box
+
+```css
 /* SYNTAX TO USE IN YOUR NOTE:
 <i id="roundedbox"> **Bold**: name<br>
 	**Children**: Tom, Dick<br>
@@ -11,3 +14,4 @@ i#roundedbox {
   padding: 10px;
   font-style: normal;
 }
+```

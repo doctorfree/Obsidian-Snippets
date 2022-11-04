@@ -14,7 +14,7 @@ Use tag to highlight the whole line
 
 Screenshot:
 
-![Use tag to highlight](assets/tag_highlight.png)
+![Use tag to highlight](../assets/tag_highlight.png)
 
 ```css
 /*
