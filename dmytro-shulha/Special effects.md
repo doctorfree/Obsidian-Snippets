@@ -1,5 +1,7 @@
 # Special effects
+
 ## Translucent modals and popovers
+
 ```css
 /* Translucent modals - from: Nosedive-Obsidian */
 /* Modify modal, omnibar, open looks */
@@ -23,16 +25,24 @@ div.popover.hover-popover, .menu, .suggestion-container {
   border: none;
 }
 ```
+
 ## Oval, call-out, in sidebar
-/* There is an amazing piece of CSS code by [Lithou](https://forum.obsidian.md/t/how-to-achieve-css-code-snippets/8474/35?u=klaas) on the forum. I have not copied the code here because it is important to 1<sup>st</sup> see what it does. Also, check out his video that he links to.
+
+```css
+/*
+There is an amazing piece of CSS code by [Lithou](https://forum.obsidian.md/t/how-to-achieve-css-code-snippets/8474/35?u=klaas) on the forum. I have not copied the code here because it is important to 1<sup>st</sup> see what it does. Also, check out his video that he links to.
+*/
+```
 
 ## Sticky notes
+
+```css
 /* NOTE: syntax to be used to have a sticky rendered
 /* <p class="stickies">Some text</p> */
 
 
 /* From Gabroel - https://discord.com/channels/686053708261228577/702656734631821413/789334135788273724 and scroll down that page. Code was not quite correct, so here is the right code. */
-```css
+
 .stickies {
   text-align: center;
   transition: width 2s;
@@ -134,11 +144,11 @@ div.popover.hover-popover, .menu, .suggestion-container {
 }
 ```
 
+```css
 /* Another sticky possibility from j314 - https://discord.com/channels/686053708261228577/702656734631821413/801873554785566760
 /* NOTE: syntax to be used to have a sticky rendered
 /* <p class="sticky">Some text</p> */
 
-```css
 .sticky {
   background-color:var(--yellow);
   padding:10px;
@@ -156,12 +166,14 @@ div.popover.hover-popover, .menu, .suggestion-container {
 }
 ```
 
-## Images with a piece of scotch tape effect - thanks to Lithou*/
-/* placement of images */
-/* After putting the code below, you can get the tape effect doing ![[imagename.png#tape]] */
-/* refer to Lithou's sandbox https://github.com/lithou/sandbox */
+## Images with a piece of scotch tape effect - thanks to Lithou
 
 ```css
+/* placement of images */
+/* After putting the code below, you can get the tape effect doing */
+/*  ![[imagename.png#tape]] */
+/* refer to Lithou's sandbox https://github.com/lithou/sandbox */
+
 div{
     --coremarg: 1%; 
     --extramarg: 1%; /* This margin is used for any added margin between items */
@@ -171,7 +183,6 @@ div{
 /* Core Flags */
 /* side */
 
-```css
         div[alt*="+side"]{
             position: relative;
             width: var(--defaultwidth);
@@ -179,11 +190,9 @@ div{
             margin: 0px;
             margin-left: var(--coremarg);
         }
-```
 
 /* tape */
 
-```css
 div[alt*="+tape"] {
             position: relative;
             float: right;
@@ -195,9 +204,7 @@ div[alt*="+tape"] {
             -ms-transform: rotate(0deg);
             transform: rotate(2deg);
         }
-```
 
-```css
 div[alt*="+tape"]::before {
             content: "";
             display: block;
@@ -237,9 +244,9 @@ div[alt*="+tape"]::before {
         }
 ```
 
+```css
 /* Push Pin */
 
-```css
 div[alt*="+pin"] {
             position: relative;
             float: right;
@@ -283,9 +290,9 @@ div[alt*="+pin"] {
             clip-path: ellipse(45% 35% at 50% 50%);}
 ```
 
+```css
 /* Banner and HR */
 
-```css
         div[alt*="+banner"]{
             height: 100px;
             overflow: hidden;
@@ -308,9 +315,9 @@ div[alt*="+pin"] {
             }
 ```        
 
+```css
 /* Custom Core Flags */
 
-```css
 div[alt*="+custom1"]{
         position: relative;
         width: var(--defaultwidth);
@@ -327,10 +334,10 @@ div[alt*="+custom1"]{
     }
 ```
 
+```css
 /* Modifier Flags */
     /* Orientation and position */
 
-```css
 div[alt*="-left"]{
             float: left;
             margin: 0px;
@@ -343,9 +350,9 @@ div[alt*="-left"]{
         div[alt*="-abs"]{position: absolute;}
 ```
 
+```css
 /* Size */
 
-```css
 div[alt*="-thumb"]{width: 11.50%;}
         div[alt*="-sm"]{width: 24%;}
         div[alt*="-med"]{width: 32.3333%;}
@@ -354,9 +361,9 @@ div[alt*="-thumb"]{width: 11.50%;}
         div[alt*="-cwidth"]{float: none;margin-left: -10%;width: 120%;}
 ```
 
+```css
 /* Borders */
 
-```css
 div[alt*="-border1"]>img{border: solid black 3px;}
 div[alt*="-border2"]>img{border: solid white 3px;}
 div[alt*="-bradius1"]>img{border-radius: 5px;}
@@ -369,22 +376,19 @@ div[alt*="-bthick"]>img{border-width: 5px;}
 div[alt*="-bthin"]>img{border-width: 1px;}
 ```
 
+```css
 /* Div Borders */
 
-```css
 div[alt*="-divborder1"]{border: solid #336699 2px;}
 div[alt*="-divborder2"]{border: solid black 2px;}
 div[alt*="-divbradius1"]{border-radius: 5px;}
 div[alt*="-divbradius2"]{border-radius: 20px;}
 div[alt*="-cdivbradius1"]{border-radius: 50px;}
-```
 
-```css
 div[alt*="-shadow1"]>img{
     box-shadow: darkgrey -2px 2px 2px;
 
 }
-
 
 div[alt*="-glow"]>img{
     box-shadow: darkgrey 0px 0px 20px;

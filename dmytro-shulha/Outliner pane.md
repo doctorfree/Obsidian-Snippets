@@ -61,10 +61,10 @@
 }
 ```
 
+```css
 /* indent wrapped titles outliner*/
 /* included above */
 
-```css
 /* change font color outline */
 div.collapsible-item-inner {
   color: var(--base3);

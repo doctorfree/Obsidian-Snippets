@@ -7,7 +7,7 @@ This repository contains various CSS snippets written for [Obsidian](https://obs
 Snippets included here have been gathered and curated by [Doctorfree](https://github.com/doctorfree) and include freely redistributable snippets from:
 
 - [Dmytro Shulha](https://github.com/Dmytro-Shulha/obsidian-css-snippets)
-- [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian/tree/master/code/css-snippets)
+- [Knut Magnus Aasrud](https://github.com/kmaasrud/awesome-obsidian/tree/master/code/css-snippets)
 - [Scott Killen](https://github.com/ScottKillen/obsidian-snippets)
 - [Dustin Knopoff](https://github.com/dustinknopoff/obsidian-snippets)
 
@@ -21,7 +21,7 @@ Some of these snippets were initially collected by [Klaas](https://forum.obsidia
     - [Clone and view locally](#clone_and_view_locally)
 - [Included snippets](#included_snippets)
     - [Dmytro-Shulha](#dmytro-shulha)
-    - [Kmaasrud](#kmaasrud)
+    - [Knut Magnus Aasrud](#awesome_obsidian)
     - [ScottKillen](#scottkillen)
     - [DustinKnopoff](#dustinknopoff)
 - [Support](#support)
@@ -105,23 +105,23 @@ Included from [Dmytro Shulha](https://github.com/Dmytro-Shulha/obsidian-css-snip
 
 |    |    |    |    |
 |----|----|----|----|
-| [Center Tables](obsidian-css-snippets/Center-Tables.md) | [Dracula Skin](obsidian-css-snippets/Dracula-skin.md) | [Text Box](obsidian-css-snippets/Text-Box.md) | [Animation](obsidian-css-snippets/Animation.md) |
-| [Block quote inline](obsidian-css-snippets/Block%20quote%20inline.md) | [Block quote](obsidian-css-snippets/Block%20quote.md) | [Buttons - stylized](obsidian-css-snippets/Buttons%20-%20stylized.md) | [Check box](obsidian-css-snippets/Check%20box.md) |
-| [Clutter remove](obsidian-css-snippets/Clutter%20remove.md) | [Command palette](obsidian-css-snippets/Command%20palette.md) | [Country flag hashtag](obsidian-css-snippets/Country%20flag%20hashtag.md) | [Edge on left](obsidian-css-snippets/Edge%20on%20left.md) |
-| [Embeds](obsidian-css-snippets/Embeds.md) | [Export to PDF](obsidian-css-snippets/Export%20to%20PDF.md) | [File explorer - Obsidian](obsidian-css-snippets/File%20explorer%20-%20Obsidian.md) | [Folding arrows](obsidian-css-snippets/Folding%20arrows/Folding%20arrows.md) |
-| [Font](obsidian-css-snippets/Font.md) | [Footnotes](obsidian-css-snippets/Footnotes.md) | [Graph nodes](obsidian-css-snippets/Graph%20nodes.md) | [Gutter line numbers](obsidian-css-snippets/Gutter%20line%20numbers.md) |
-| [Headers](obsidian-css-snippets/Headers.md) | [HTML](obsidian-css-snippets/HTML.md) | [Hyphenation-Justification](obsidian-css-snippets/Hyphenation-Justification.md) | [Images](obsidian-css-snippets/Images.md) |
-| [Lines - horizontal](obsidian-css-snippets/Lines%20-%20horizontal.md) | [Links](obsidian-css-snippets/Links.md) | [Lists - (un)ordered](obsidian-css-snippets/Lists%20-%20(un)ordered.md) | [Markers](obsidian-css-snippets/Markers.md) |
-| [Mermaid](obsidian-css-snippets/Mermaid.md) | [Note title in pane](obsidian-css-snippets/Note%20title%20in%20pane.md) | [Outliner pane](obsidian-css-snippets/Outliner%20pane.md) | [Panes](obsidian-css-snippets/Panes.md) |
-| [Popover-Popup](obsidian-css-snippets/Popover-Popup.md) | [Progress bar vault launch](obsidian-css-snippets/Progress%20bar%20vault%20launch.md) | [Resizable Mermaid](obsidian-css-snippets/Resizable%20Mermaid.md) | [Ribbons](obsidian-css-snippets/Ribbons.md) |
-| [Scroll bar](obsidian-css-snippets/Scroll%20bar.md) | [Search](obsidian-css-snippets/Search.md) | [Sentences](obsidian-css-snippets/Sentences.md) | [Settings](obsidian-css-snippets/Settings.md) |
-| [Sidebar](obsidian-css-snippets/Sidebar.md) | [Sidenotes](obsidian-css-snippets/Sidenotes.md) | [Special effects](obsidian-css-snippets/Special%20effects.md) | [Status bar](obsidian-css-snippets/Status%20bar.md) |
-| [Table](obsidian-css-snippets/Table.md) | [Tag pills](obsidian-css-snippets/Tag%20pills.md) | [Title bar](obsidian-css-snippets/Title%20bar.md) | [Tooltip](obsidian-css-snippets/Tooltip.md) |
-| [URLs](obsidian-css-snippets/URLs.md) | [Vim Static Caret](obsidian-css-snippets/Vim%20Static%20Caret.md) | [WYSIWYG](obsidian-css-snippets/WYSIWYG.md) | [Yaml](obsidian-css-snippets/Yaml.md) |
+| [Center Tables](dmytro-shulha/Center-Tables.md) | [Dracula Skin](dmytro-shulha/Dracula-skin.md) | [Text Box](dmytro-shulha/Text-Box.md) | [Animation](dmytro-shulha/Animation.md) |
+| [Block quote inline](dmytro-shulha/Block%20quote%20inline.md) | [Block quote](dmytro-shulha/Block%20quote.md) | [Buttons - stylized](dmytro-shulha/Buttons%20-%20stylized.md) | [Check box](dmytro-shulha/Check%20box.md) |
+| [Clutter remove](dmytro-shulha/Clutter%20remove.md) | [Command palette](dmytro-shulha/Command%20palette.md) | [Country flag hashtag](dmytro-shulha/Country%20flag%20hashtag.md) | [Edge on left](dmytro-shulha/Edge%20on%20left.md) |
+| [Embeds](dmytro-shulha/Embeds.md) | [Export to PDF](dmytro-shulha/Export%20to%20PDF.md) | [File explorer - Obsidian](dmytro-shulha/File%20explorer%20-%20Obsidian.md) | [Folding arrows](dmytro-shulha/Folding%20arrows/Folding%20arrows.md) |
+| [Font](dmytro-shulha/Font.md) | [Footnotes](dmytro-shulha/Footnotes.md) | [Graph nodes](dmytro-shulha/Graph%20nodes.md) | [Gutter line numbers](dmytro-shulha/Gutter%20line%20numbers.md) |
+| [Headers](dmytro-shulha/Headers.md) | [HTML](dmytro-shulha/HTML.md) | [Hyphenation-Justification](dmytro-shulha/Hyphenation-Justification.md) | [Images](dmytro-shulha/Images.md) |
+| [Lines - horizontal](dmytro-shulha/Lines%20-%20horizontal.md) | [Links](dmytro-shulha/Links.md) | [Lists - (un)ordered](dmytro-shulha/Lists%20-%20(un)ordered.md) | [Markers](dmytro-shulha/Markers.md) |
+| [Mermaid](dmytro-shulha/Mermaid.md) | [Note title in pane](dmytro-shulha/Note%20title%20in%20pane.md) | [Outliner pane](dmytro-shulha/Outliner%20pane.md) | [Panes](dmytro-shulha/Panes.md) |
+| [Popover-Popup](dmytro-shulha/Popover-Popup.md) | [Progress bar vault launch](dmytro-shulha/Progress%20bar%20vault%20launch.md) | [Resizable Mermaid](dmytro-shulha/Resizable%20Mermaid.md) | [Ribbons](dmytro-shulha/Ribbons.md) |
+| [Scroll bar](dmytro-shulha/Scroll%20bar.md) | [Search](dmytro-shulha/Search.md) | [Sentences](dmytro-shulha/Sentences.md) | [Settings](dmytro-shulha/Settings.md) |
+| [Sidebar](dmytro-shulha/Sidebar.md) | [Sidenotes](dmytro-shulha/Sidenotes.md) | [Special effects](dmytro-shulha/Special%20effects.md) | [Status bar](dmytro-shulha/Status%20bar.md) |
+| [Table](dmytro-shulha/Table.md) | [Tag pills](dmytro-shulha/Tag%20pills.md) | [Title bar](dmytro-shulha/Title%20bar.md) | [Tooltip](dmytro-shulha/Tooltip.md) |
+| [URLs](dmytro-shulha/URLs.md) | [Vim Static Caret](dmytro-shulha/Vim%20Static%20Caret.md) | [WYSIWYG](dmytro-shulha/WYSIWYG.md) | [Yaml](dmytro-shulha/Yaml.md) |
 
-### Kmaasrud
+### Awesome_Obsidian
 
-Included from [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian/tree/master/code/css-snippets):
+Included from [Knut Magnus Aasrud](https://github.com/kmaasrud/awesome-obsidian/tree/master/code/css-snippets):
 
 |    |    |    |    |
 |----|----|----|----|
@@ -137,9 +137,9 @@ Included from [Scott Killen](https://github.com/ScottKillen/obsidian-snippets):
 
 |    |    |    |    |
 |----|----|----|----|
-| [Calendar emoji](obsidian-snippets/calendar-emoji.md) | [Calendar starred](obsidian-snippets/calendar-starred.md) | [Calendar weekends](obsidian-snippets/calendar-weekends.md) | [Custom checkboxes](obsidian-snippets/custom-checkboxes.md) |
-| [Jesus words](obsidian-snippets/jesuswords.md) | [Labeled nav](obsidian-snippets/labeled-nav.md) | [Minimal tweaks](obsidian-snippets/minimal-tweaks.md) | [Print](obsidian-snippets/print.md) |
-| [Tables](obsidian-snippets/tables.md) | [Tabular numbers](obsidian-snippets/tabular-numbers.md) | [Typography](obsidian-snippets/typography.md) | |
+| [Calendar emoji](scottkillen/calendar-emoji.md) | [Calendar starred](scottkillen/calendar-starred.md) | [Calendar weekends](scottkillen/calendar-weekends.md) | [Custom checkboxes](scottkillen/custom-checkboxes.md) |
+| [Jesus words](scottkillen/jesuswords.md) | [Labeled nav](scottkillen/labeled-nav.md) | [Minimal tweaks](scottkillen/minimal-tweaks.md) | [Print](scottkillen/print.md) |
+| [Tables](scottkillen/tables.md) | [Tabular numbers](scottkillen/tabular-numbers.md) | [Typography](scottkillen/typography.md) | |
 
 ### DustinKnopoff
 
