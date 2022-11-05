@@ -2,19 +2,42 @@
 
 This repository contains various CSS snippets written for [Obsidian](https://obsidian.md).
 
-Some of these snippets were written by [Doctorfree](https://github.com/doctorfree).
+Snippets included here have been gathered and curated by [Doctorfree](https://github.com/doctorfree) and include freely redistributable snippets from:
 
-Some of these snippets were initially collected by Klaas: https://forum.obsidian.md/t/how-to-achieve-css-code-snippets/8474 and further curated by [Erica](https://github.com/ericaxu).
+- [Dmytro Shulha](https://github.com/Dmytro-Shulha/obsidian-css-snippets)
+- [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian/tree/master/code/css-snippets)
+- [Scott Killen](https://github.com/ScottKillen/obsidian-snippets)
+- [Dustin Knopoff](https://github.com/dustinknopoff/obsidian-snippets)
+
+Some of these snippets were initially collected by [Klaas](https://forum.obsidian.md/t/how-to-achieve-css-code-snippets/8474) and further curated by [Erica](https://github.com/ericaxu).
 
 ## Table of Contents
 
 - [Usage](#usage)
-    - [Markdown viewers](#markdown-viewers)
-    - [Clone and view locally](#clone-and-view-locally)
-- [Included snippets](#included-snippets)
+    - [Obsidian](#obsidian)
+    - [Markdown viewers](#markdown_viewers)
+    - [Clone and view locally](#clone_and_view_locally)
+- [Included snippets](#included_snippets)
+    - [Dmytro-Shulha](#dmytro-shulha)
+    - [Kmaasrud](#kmaasrud)
+    - [ScottKillen](#scottkillen)
+    - [DustinKnopoff](#dustinknopoff)
 - [Support](#support)
 
 ## Usage
+
+The Obsidian CSS snippets in this repository are embedded as code blocks in markdown for ease of viewing. To create a CSS snippet use the `Copy` button in the upper right hand corner of the CSS code block when viewing the markdown in Obsidian. This will copy the CSS snippet to the clipboard. Paste the contents of the clipboard into a file, typically named the same as the markdown but with a `.css` filename extension rather than `.md`. Alternatively, copy the markdown file to a new file with `.css` extension rather than `.md` and delete ``all lines up to and including the line beginning with ```css`` and ``all lines after and including the line beginning with ```.``
+
+To use an Obsidian CSS snippet in an Obsidian vault, copy the snippet to the folder `/path/to/vault/.obsidian/snippets/`. For example, to use a snippet named `Example-Snippet.css` in an Obsidian vault located at `/home/ronnie/Documents/Example-Vault/`:
+
+```shell
+mkdir -p /home/ronnie/Documents/Example-Vault/.obsidian/snippets
+cp /path/to/Example-Snippet.css /home/ronnie/Documents/Example-Vault/.obsidian/snippets`
+```
+
+After the snippet is placed in the Obsidian `snippets` folder, enable it in Obsidian by opening the `Example-Vault` vault in Obsidian and navigating to `Settings -> Appearance -> CSS snippets`. The `Example-Snippet` should show up there as a disabled snippet. Click the slider toggle to the right of the snippet to enable it. The `Example-Snippet` CSS styling will immediately be applied to your vault documents.
+
+### Obsidian
 
 Any [markdown](https://en.wikipedia.org/wiki/Markdown) viewer can be used to view this knowledge base. You can simply browse the repository and click on the individual markdown files at https://github.com/doctorfree/Obsidian-Snippets.git in any web browser. However, to view the inter-relationships between the many components, categories, and technologies documented here, we recommend using the [Obsidian](https://obsidian.md) knowledge base engine.
 
@@ -29,7 +52,7 @@ The repository contains the Obsidian theme `Doctorfree`. To use this theme with 
 
 **[Note:]** Obsidian is free for personal non-commercial use but must be purchased in revenue generating operations (see the note on [Obsidian license restrictions](#obsidian-license-restriction) below).
 
-### Markdown viewers
+### Markdown_viewers
 
 Recommended markdown viewers, available for all platforms and with many features:
 
@@ -49,7 +72,7 @@ Several excellent resources exist that provide lists and reviews of popular mark
 
 Obsidian is pretty cool though, so try it out.
 
-### Clone and view locally
+### Clone_and_view_locally
 
 To explore this repository locally or to integrate it into a service, first clone the repository:
 
@@ -64,7 +87,7 @@ This will result in a local folder, `Obsidian-Snippets`, containing all of the m
 - Navigate to the `Obsidian-Snippets` folder created by `git clone ...`
 - Click "Open" to create the new Obsidian vault
 
-## Included snippets
+## Included_snippets
 
 The default theme full CSS:
 
@@ -74,7 +97,9 @@ Written by [Doctorfree](https://github.com/doctorfree):
 
 - [Graph View Skin](Graph-view-skin.md)
 
-Included from [kmaasrud/awesome-obsidian](https://github.com/Dmytro-Shulha/obsidian-css-snippets) and elsewhere:
+### Dmytro-Shulha
+
+Included from [Dmytro Shulha](https://github.com/Dmytro-Shulha/obsidian-css-snippets) and elsewhere:
 
 |    |    |    |    |
 |----|----|----|----|
@@ -92,6 +117,8 @@ Included from [kmaasrud/awesome-obsidian](https://github.com/Dmytro-Shulha/obsid
 | [Table](obsidian-css-snippets/Table.md) | [Tag pills](obsidian-css-snippets/Tag%20pills.md) | [Title bar](obsidian-css-snippets/Title%20bar.md) | [Tooltip](obsidian-css-snippets/Tooltip.md) |
 | [URLs](obsidian-css-snippets/URLs.md) | [Vim Static Caret](obsidian-css-snippets/Vim%20Static%20Caret.md) | [WYSIWYG](obsidian-css-snippets/WYSIWYG.md) | [Yaml](obsidian-css-snippets/Yaml.md) |
 
+### Kmaasrud
+
 Included from [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian/tree/master/code/css-snippets):
 
 |    |    |    |    |
@@ -102,6 +129,8 @@ Included from [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-ob
 | [Nicer checkboxes](awesome-obsidian/nicer-checkboxes.md) | [Outliner for the outline and file explorer](awesome-obsidian/outliner-for-the-outline-and-file-explorer.md) | [Smaller scrollbar](awesome-obsidian/smaller-scrollbar.md) | [Stylish blockquotes](awesome-obsidian/stylish-blockquotes.md) |
 | [Subtler folding gutter arrows](awesome-obsidian/subtler-folding-gutter-arrows.md) | [Tag pills](awesome-obsidian/tag-pills.md) | | |
 
+### ScottKillen
+
 Included from [Scott Killen](https://github.com/ScottKillen/obsidian-snippets):
 
 |    |    |    |    |
@@ -109,6 +138,21 @@ Included from [Scott Killen](https://github.com/ScottKillen/obsidian-snippets):
 | [Calendar emoji](obsidian-snippets/calendar-emoji.md) | [Calendar starred](obsidian-snippets/calendar-starred.md) | [Calendar weekends](obsidian-snippets/calendar-weekends.md) | [Custom checkboxes](obsidian-snippets/custom-checkboxes.md) |
 | [Jesus words](obsidian-snippets/jesuswords.md) | [Labeled nav](obsidian-snippets/labeled-nav.md) | [Minimal tweaks](obsidian-snippets/minimal-tweaks.md) | [Print](obsidian-snippets/print.md) |
 | [Tables](obsidian-snippets/tables.md) | [Tabular numbers](obsidian-snippets/tabular-numbers.md) | [Typography](obsidian-snippets/typography.md) | |
+
+### DustinKnopoff
+
+Included from [Dustin Knopoff](https://github.com/dustinknopoff/obsidian-snippets):
+
+|    |    |    |    |
+|----|----|----|----|
+| [Active file path](dustinknopoff/active-file-path.md) | [Adding css](dustinknopoff/adding-css.md) | [Bigger popup preview](dustinknopoff/bigger-popup-preview.md) | [Birthdays](dustinknopoff/birthdays.md) |
+| [Block cursor](dustinknopoff/block-cursor.md) | [Builtin icons](dustinknopoff/builtin-icons.md) | [Bullet relations](dustinknopoff/bullet-relations.md) | [Changing fonts](dustinknopoff/changing-fonts.md) |
+| [Collapsible side notes](dustinknopoff/collapsible-side-notes.md) | [Collapsible sidebars](dustinknopoff/collapsible-sidebars.md) | [Custom hr](dustinknopoff/custom-hr.md) | [Dataview table as cards](dustinknopoff/dataview-table-as-cards.md) |
+| [Display tags aside](dustinknopoff/display-tags-aside.md) | [Enlarge image on hover](dustinknopoff/enlarge-image-on-hover.md) | [Fade controls](dustinknopoff/fade-controls.md) | [Folder file icons](dustinknopoff/folder-file-icons.md) |
+| [Lined heading](dustinknopoff/lined-heading.md) | [List obsidian commands](dustinknopoff/list-obsidian-commands.md) | [Maintain line height footnotes](dustinknopoff/maintain-line-height-footnotes.md) | [Naked embeds](dustinknopoff/naked-embeds.md) |
+| [Outliner tree](dustinknopoff/outliner-tree.md) | [Pane controls hover](dustinknopoff/pane-controls-hover.md) | [PDF export tweaks](dustinknopoff/pdf-export-tweaks.md) | [People nearby](dustinknopoff/people-nearby.md) |
+| [Read file](dustinknopoff/read-file.md) | [Responsive type](dustinknopoff/responsive-type.md) | [Retrieve frontmatter](dustinknopoff/retrieve-frontmatter.md) | [Set embed height](dustinknopoff/set-embed-height.md) |
+| [Status bar border](dustinknopoff/status-bar-border.md) | [Stylish quotes](dustinknopoff/stylish-quotes.md) | [Tag colors](dustinknopoff/tag-colors.md) | [Vim mode line focus](dustinknopoff/vim-mode-line-focus.md) |
 
 ## Support
 
