@@ -30,14 +30,14 @@ Some of these snippets were initially collected by [Klaas](https://forum.obsidia
 
 The Obsidian CSS snippets in this repository are embedded as code blocks in markdown for ease of viewing. To create a CSS snippet use the `Copy` button in the upper right hand corner of the CSS code block when viewing the markdown in Obsidian. This will copy the CSS snippet to the clipboard. Paste the contents of the clipboard into a file, typically named the same as the markdown but with a `.css` filename extension rather than `.md`. Alternatively, copy the markdown file to a new file with `.css` extension rather than `.md` and delete ``all lines up to and including the line beginning with ```css`` and ``all lines after and including the line beginning with ```.``
 
-To use an Obsidian CSS snippet in an Obsidian vault, copy the snippet to the folder `/path/to/vault/.obsidian/snippets/`. For example, to use a snippet named `Example-Snippet.css` in an Obsidian vault located at `/home/ronnie/Documents/Example-Vault/`:
+To use an Obsidian CSS snippet in an Obsidian vault, copy the snippet to the folder `/path/to/vault/.obsidian/snippets/`. For example, to use a snippet named `MySnippet.css` in an Obsidian vault located at `/home/ronnie/Documents/MyVault/`:
 
 ```shell
-mkdir -p /home/ronnie/Documents/Example-Vault/.obsidian/snippets
-cp /path/to/Example-Snippet.css /home/ronnie/Documents/Example-Vault/.obsidian/snippets`
+mkdir -p /home/ronnie/Documents/MyVault/.obsidian/snippets
+cp /path/to/MySnippet.css /home/ronnie/Documents/MyVault/.obsidian/snippets`
 ```
 
-After the snippet is placed in the Obsidian `snippets` folder, enable it in Obsidian by opening the `Example-Vault` vault in Obsidian and navigating to `Settings -> Appearance -> CSS snippets`. The `Example-Snippet` should show up there as a disabled snippet. Click the slider toggle to the right of the snippet to enable it. The `Example-Snippet` CSS styling will immediately be applied to your vault documents.
+After the snippet is placed in the Obsidian `snippets` folder, enable it in Obsidian by opening the `MyVault` vault in Obsidian and navigating to `Settings -> Appearance -> CSS snippets`. The `MySnippet` CSS snippet should show up there as a disabled snippet. Click the slider toggle to the right of the snippet to enable it. The `MySnippet` CSS styling will immediately be applied to your vault documents.
 
 ### Obsidian
 
