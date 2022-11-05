@@ -1,3 +1,5 @@
+![](assets/obsidian.png)
+
 # Obsidian-Snippets
 
 This repository contains various CSS snippets written for [Obsidian](https://obsidian.md).
